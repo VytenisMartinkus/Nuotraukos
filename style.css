@@ -1,0 +1,40 @@
+*{
+    box-sizing: content-box;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+body{
+    background-color: #fdbb2d;
+            
+}
+#rodyti{
+    display: none;
+}
+#nuotraukos{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    
+}
+img{
+    width: 500px;
+    height: 300px;
+    padding: auto;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+#rodyti-btn{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+#maisyti-btn{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
